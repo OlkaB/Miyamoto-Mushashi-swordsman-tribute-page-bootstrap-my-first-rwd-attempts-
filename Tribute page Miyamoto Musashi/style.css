@@ -1,0 +1,37 @@
+.musashi {
+	position: fixed;
+	height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.musashi {
+		position: static;
+		width: 100%;
+	}
+}
+
+.info-left {
+	margin-top: 0px;
+	border-left: 5px solid #ebebe0;
+	padding-left: 10px;
+}
+
+.info-right {
+	margin-top: 0;
+	border-right: 5px solid #ebebe0;
+	padding-right: 10px;
+}
+
+h2 {
+	color: silver;
+	margin-top: 50px;
+}
+
+ul {
+	margin-left: -30px;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: underline;
+}
